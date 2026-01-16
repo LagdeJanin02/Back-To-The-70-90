@@ -1,0 +1,128 @@
+/*Estilo general*/
+body {
+    font-family: "Avenue de Madison", "Type Machine", "Fragment Core";
+    background-color: #2b2b2b;
+    margin: 0;
+    padding: 0;
+}
+
+/*Encabezado*/
+header {
+    background-color:#787878;
+    color:#c0c0c0;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.5rem;
+}
+
+header p {
+    Margin: 0;
+    font-size: 2.5rem;
+}
+
+/*Barra de navegacion*/
+nav ul {
+    list-style: none;
+    background-color: #8b0000;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    padding: 14px 20px;
+}
+
+nav ul li a{
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Cine*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20x;
+    gap: 20px;
+}
+
+/*Configurar texto de arriba*/
+.Cine {
+    background-color:#f5ebd7;
+    border: #2b2b2b;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    box-shadow: 0 4px 8x #787878(0,0,0,0.1);
+    transition: transforms 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Cine:hover{
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px #c0c0c0(0, 0, 0, 0.2);
+}
+
+.Cine.img {
+    width: 100x;
+    height: auto;
+    border-radius: 20px 20px 0;
+    margin-bottom: 30px;
+}
+
+.Cine h2 {
+    color: #8b0000;
+    height: 2 rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.Cine p {
+    font-size: 2.5 rem;
+    color: #d4af37;
+    text-align: center;
+}
+
+.Galeria-Cartelera {
+    padding: 30px;
+    background-color: #787878;
+    text-align: center;
+}
+
+.Contenedor-galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.cine-img {
+    background-color:#c0c0c0;
+    border:#8b0000;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #d4af37(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+}
+
+.cine-img img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/*Pie de pagina*/
+footer {
+    background-color: #f5ebd7;
+    color: #2b2b2b;
+    text-align: center;
+    padding: 20px;
+}

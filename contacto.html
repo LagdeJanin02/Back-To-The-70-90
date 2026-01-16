@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contacto</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        font-family: "Avenue de Madison", "Type Machine", "Fragment Core";
+        margin: 0;
+    }
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background-color: #2b2b2b;
+    color: #787878;
+}
+
+.navbar {
+    display: flex;
+    background-color: #c0c0c0;
+}
+
+.navbar a {
+    color: #8b0000;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #d4af37;
+    color: #2b2b2b;
+}
+
+.MFoto {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: #787878;
+    padding: 20px;
+}
+
+.main {
+    flex: 70%;
+    background-color:#c0c0c0;
+    padding: 20px;
+}
+
+.fakeimg {
+    background-color:#8b0000;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Nuevo estilo para las imágenes reales */
+.realimg {
+    width: 100%;
+    height: auto; /* Altura automática para mantener proporciones */
+    max-height: 300px; /* Altura máxima para que no sea muy grande */
+    object-fit: contain; /* Muestra la imagen completa sin recortar */
+    display: block;
+    background-color: #2b2b2b; /* Fondo para los espacios vacíos */
+}
+
+.realimg-small {
+    width: 100%;
+    height: auto;
+    max-height: 250px; /* Aumentado para hacerlas más grandes */
+    object-fit: contain;
+    display: block;
+    margin-bottom: 15px; /* Más espacio entre imágenes */
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #d4af37;
+
+}
+
+@media screen and (max-width: 700px){
+    .MFoto,
+    .navbar {
+        flex-direction: column;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+    <!-- Note -->
+    <div style="background:#d4af37;padding:5px">
+        <h4 style="text-align:center">Back To The 70-90</h4>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+        <img src="img/Logo.png" alt="Logo" width="200" height="200"> 
+        <h1>Contacto</h1>
+        <p><b>Ya hace rato que debía haberme presentado, pero me tarde un poco...Pero ya que viniste para aca entonces vamos a resolver</b></p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+       <a href="index.html">¿Qué es cine 70-90?</a>
+       <a href="Importancia.html">Su importancia</a>
+       <a href="contacto.html">Contacto</a>
+    </div>
+
+    <!-- The flexible grid (content) -->
+    <div class="MFoto">
+        <div class="side">
+            <h2>Conoce un poco sobre mi y mi gusto por los años 70-90</h2>
+            <h3>Acerca de mi</h3>
+            <!-- Opción 1: Si tienes la foto -->
+            <img src="img/Foto8.jpeg" alt="Mi foto" class="realimg">
+            
+            <!-- Opción 2: Si no se muestra la foto, usa esto temporalmente -->
+            <!-- <div class="fakeimg" style="height:200px;">Foto de su servidora aquí presente</div> -->
+            
+            <p></p>
+            <h3>Me presento, mi nombre es Elianny Hernandez y soy dominicana</h3>
+            <p>Desde pequeña siempre me ha gustado muchas cosas del estilo 70-90 como la ropa, fotos, y demás cosas, incluyendo algunas películas y personajes de ese tiempo, uno de ellos es Keanu Reeves quien interpreta varios personajes que me encantan como "El abogado del diablo" o "John Wick", y aunque no son películas de eese tiempo el personaje si está como viejito ya</p>
+            
+            <!-- Para las imágenes pequeñas, reemplaza con tus fotos -->
+            <img src="img/Foto6.jpg" alt="Imagen 6" class="realimg-small"><br>
+            <img src="img/Foto5.jpg" alt="Imagen 5" class="realimg-small"><br>
+            <img src="img/Foto1.JPEG" alt="Imagen 1" class="realimg-small">
+            
+            <!-- Si no tienes las fotos, usa los placeholders -->
+            <!-- <div class="fakeimg" style="height:60px;">Image</div><br>
+            <div class="fakeimg" style="height:60px;">Image</div><br>
+            <div class="fakeimg" style="height:60px;">Image</div> -->
+        </div>
+        <div class="main">
+            <h2>Los años 70-90 son uno de los mejores, no pienso discutirlo y se aguantan u-u</h2>
+            
+            <!-- Reemplaza con tu foto -->
+            <img src="img/Foto7.webp" alt="Imagen principal" class="realimg">
+            <!-- O usa el placeholder: -->
+            <!-- <div class="fakeimg" style="height:200px;">Image</div> -->
+            
+            <h3>No tengo mucho que decir en realidad</h3>
+            <p>Solo déjame fluir un poco y verás que terminaremos viendo personajes de esos tiempos, ropa y demás</p>
+            <br>
+            <h2>Espero volver a verte pronto, ¿si?</h2>
+            <p>No me iré muy lejos, solo iré a disfrutar un rato de los tiempo 70-90, ya que como no puedo vivirlos debo conformarme con verlos. Si quieres vienes y me acompañas, sino, pues te quedas, no pasa nada...Total, lo único que me molestaría es que alguien venga a criticarme los gustos o mi página</p>
+
+            
+            <!-- Reemplaza con tu foto -->
+            <img src="img/Foto10.jpg" alt="Imagen principal" class="realimg">
+            <center>
+            <img src="img/Isotipo.png" alt="Isotipo" width="400" height="400"> 
+            </center>
+            <!-- O usa el placeholder: -->
+            <!-- <div class="fakeimg" style="height:200px;">Image</div> -->
+            
+            
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <h3>From film to development</h3>
+    </div>
+
+</body>
+
+</html>
